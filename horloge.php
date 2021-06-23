@@ -26,39 +26,29 @@ add_action('wp_enqueue_scripts', 'enqueue_script');
 function get_horloge()
 {
   $aff =
-    '<div id="carousel" class="carousel slide" data-ride="carousel">
+    '<div id="carousel" class="carousel slide" data-interval="false">
 
     <div class="carousel-inner">
         <div class="carousel-item active">
             <h3 class="d-block w-100"><span class="hours" id="2"></span></h3>
-            <h5>Local</h5>
-            <p>...</p>
-
+            <h5 class= "pays">Local</h5>
         </div>
         <div class="carousel-item">
             <h3 class="d-block w-100"> <span class="hours" id="1"></span></h3>
-            <h5>London -1 </h5>
-            <p>...</p>
-
+            <h5 class= "pays">London -1 </h5>
         </div>
         <div class="carousel-item">
             <h3 class="d-block w-100"> <span class="hours" id="-4"></span></h3>
-            <h5>Cleveland -6</h5>
-            <p>...</p>
-
+            <h5 class= "pays">Cleveland -6</h5>
         </div>
         <div class="carousel-item">
             <h3 class="d-block w-100"> <span class="hours" id="-5"></span></h3>
-            <h5>Milwaukee -7 </h5>
-            <p>...</p>
-
+            <h5 class= "pays">Milwaukee -7 </h5>
         </div>
         <div class="carousel-item">
             <h3 class="d-block w-100"> <span class="hours" id="-7"></span></h3>
-            <h5>Sandiego -9 :</h5>
-            <p>...</p>
-
-        </div>
+            <h5 class= "pays">Sandiego -9 :</h5>
+         </div>
 
     </div>
     <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">

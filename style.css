@@ -17,16 +17,13 @@ div h3 {
     margin-top: 55px;
 }
 
-div h5 {
-    margin-bottom: 75px;
-}
 
 #carousel {
     display: flex;
     justify-content: flex-end;
-    width: 350px;
+    width: 300px;
     height: 260px;
-    font-size: 120px;
+    font-size: 80px;
     font-family: sans-serif;
     font-weight: 200px;
     padding-bottom: 10px;
@@ -38,4 +35,8 @@ div h5 {
     border-radius: 30px;
     
 
+}
+
+.pays {
+    margin-top: -15px;
 }
