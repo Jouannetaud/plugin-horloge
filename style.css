@@ -1,0 +1,41 @@
+.hours {
+    
+    display: flex;
+    justify-content: flex-end;
+    width: 500px;
+    font-size: 120px;
+    font-family: sans-serif;
+    font-weight: 300px;
+    padding-bottom: 10px;
+    color: #253746;
+    margin: 75px;
+    align-items: center;
+}
+
+div h3 {
+    text-align: center;
+    margin-top: 55px;
+}
+
+div h5 {
+    margin-bottom: 75px;
+}
+
+#carousel {
+    display: flex;
+    justify-content: flex-end;
+    width: 350px;
+    height: 260px;
+    font-size: 120px;
+    font-family: sans-serif;
+    font-weight: 200px;
+    padding-bottom: 10px;
+    color: #253746;
+    margin: auto;
+    background-color: lightgray;
+    text-align: center;
+    align-items: center;
+    border-radius: 30px;
+    
+
+}
